@@ -1,0 +1,67 @@
+* {
+    font-family: 'Red Hat Text', sans-serif;
+    color: white;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    background-color: #1e1e28;
+    background-image: url(./images/bg-stars.svg),url(images/pattern-hills.svg);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 100vw;
+    height: 100vh;
+    
+}
+
+.count-main {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.count-info {
+    display: flex;
+}
+
+.timer {
+    height: 300px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.timer ul {
+    display: flex;
+}
+
+.timer li {
+    font-size: 90px;
+    font-weight: 700;
+    color: hsl(345, 95%, 68%);
+    background-color: #2c2c44;
+    border: 1px solid transparent ;
+    border-radius: 15px;
+    padding: 30px;
+    margin: 0 15px;
+    width: 200px;
+    text-align: center;
+}
+
+.count-hours {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.count-hours h2 {
+    padding-left: 15px;
+}
